@@ -16,7 +16,7 @@ def test_negative_initial_balance():
 
 def test_positve_deposit(start_account):
     start_account.deposit(50)
-    assert start_account.balance == 150
+    assert start_account.balance == 150 I want to try what happens if there is a syntax error
 
 def test_negative_deposit(start_account):
     with pytest.raises(ValueError):
